@@ -79,3 +79,19 @@ body,html{
 	font-weight: normal;
 	font-size: 32px;
 }
+
+.circle-image{
+	transition: all 0.3s;
+}
+
+
+/*.menu-item-inner:hover .circle-image{
+	-webkit-animation:spin 3s linear;
+    -moz-animation:spin 3s linear;
+    animation:spin 3s linear;
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(90deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(90deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(90deg); transform:rotate(90deg); } }*/
