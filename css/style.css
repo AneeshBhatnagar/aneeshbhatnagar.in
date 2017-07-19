@@ -6,6 +6,17 @@
 	Colour Scheme: Light - #c3c2c2, Dark - #212121, Accent - #21a1cf
 */
 
+/********************************************
+	Table of Contents
+	1. Common Properties
+	2. Homepage
+	3. Connect Page
+	4. Responsive Utilities
+********************************************/
+
+/*Common Properties 
+************************/
+
 body,html{
 	background: #c3c2c2;
 }
@@ -47,6 +58,9 @@ body,html{
 	margin-right: 0px;
 }
 
+/*Homepage 
+*******************/
+
 .home-nav{
 	margin-top:100px;
 }
@@ -61,7 +75,7 @@ body,html{
 
 .menu-image{
 	width:100%;
-	max-width: 250px;
+	max-width: 225px;
 	display: block;
 	margin:0 auto;
 	position: relative;
@@ -80,18 +94,65 @@ body,html{
 	font-size: 32px;
 }
 
+.menu-item a{
+	text-decoration: none !important;
+	font-weight: inherit;
+	color:inherit;
+}
+
 .circle-image{
 	transition: all 0.3s;
 }
 
+/* Connect Page
+*********************/
 
-/*.menu-item-inner:hover .circle-image{
-	-webkit-animation:spin 3s linear;
-    -moz-animation:spin 3s linear;
-    animation:spin 3s linear;
+
+
+/* Responsive Utilities
+***************************/
+@media (max-width: 767px){
+	/*Handling for Extra Small Screen Devices */
+	.name-banner, .social-banner{
+		float:none;
+		margin:0 auto;
+		margin-bottom: 0px;
+		width: 100%;
+	}
+
+	.banner-row{
+		margin-top:0px;
+	}
+
+	.home-nav{
+		margin-top:20px;
+	}
+
 }
 
+@media (max-width: 991px){
+	/*Handling for Extra Small and Small Screen Devices */
+	.menu-item{
+		margin-bottom: 15px;
+	}
+}
 
-@-moz-keyframes spin { 100% { -moz-transform: rotate(90deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(90deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(90deg); transform:rotate(90deg); } }*/
+@media (max-width: 1199px){
+	/*Handling for Extra Small, Small and Medium Screen Devices */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	/*Handling for Small Screen Devices only */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	/*Handling for Medium Screen Devices only */
+
+}
+
+@media (min-width: 1200px){
+	/*Handling for Large Screen Devices only */
+
+}
