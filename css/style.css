@@ -22,7 +22,7 @@ body,html{
 }
 
 .banner-row{
-	margin-top:70px;
+	margin-top:0px;
 }
 
 .top-banner{
@@ -58,22 +58,19 @@ body,html{
 	margin-right: 0px;
 }
 
-/*Homepage 
-*******************/
-
-.home-nav{
-	margin-top:100px;
+.side-nav{
+	margin-top:15px;
 }
 
-.menu-item-inner{
+.side-nav .menu-item-inner{
 	width: 100%;
 	height: 180px;
 	display: block;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	position: relative;
 }
 
-.menu-image{
+.side-nav .menu-image{
 	width:100%;
 	max-width: 225px;
 	display: block;
@@ -81,32 +78,134 @@ body,html{
 	position: relative;
 }
 
-.menu-image img{
+.side-nav .menu-image img{
 	position: absolute;
 	top:0;
 	width:100%;
 	height: auto;
 }
 
-.menu-item h1{
+.side-nav .menu-item h4{
 	text-align: center;
 	font-weight: normal;
-	font-size: 32px;
+	font-size: 22px;
 }
 
-.menu-item a{
+.side-nav .menu-item a{
 	text-decoration: none !important;
 	font-weight: inherit;
 	color:inherit;
 }
 
-.circle-image{
+.side-nav .circle-image{
+	transition: all 0.3s;
+}
+
+.side-nav .inactive{
+	opacity: 0.5;
+	transition: all 0.2s;
+}
+
+.side-nav .inactive:hover{
+	opacity: 1;
+}
+
+/*Homepage 
+*******************/
+
+.home-nav{
+	margin-top:160px;
+}
+
+.home-nav .menu-item-inner{
+	width: 100%;
+	height: 180px;
+	display: block;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.home-nav .menu-image{
+	width:100%;
+	max-width: 225px;
+	display: block;
+	margin:0 auto;
+	position: relative;
+}
+
+.home-nav .menu-image img{
+	position: absolute;
+	top:0;
+	width:100%;
+	height: auto;
+}
+
+.home-nav .menu-item h1{
+	text-align: center;
+	font-weight: normal;
+	font-size: 32px;
+}
+
+.home-nav .menu-item a{
+	text-decoration: none !important;
+	font-weight: inherit;
+	color:inherit;
+}
+
+.home-nav .circle-image{
 	transition: all 0.3s;
 }
 
 /* Connect Page
 *********************/
+#contact-form input[type="text"]{
+	border:none;
+	background: #212121;
+	padding:10px;
+	font-weight: bold;
+	color:#21a1cf;
+	margin-bottom: 20px;
+	width: 45%;
+}
 
+#contact-form textarea{
+	border:none;
+	background: #212121;
+	padding:10px;
+	font-weight: bold;
+	color:#21a1cf;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 160px;
+}
+
+#contact-form input[type="text"]::-webkit-input-placeholder, #contact-form textarea::-webkit-input-placeholder {
+color: #21a1cf !important;
+opacity: 0.7;
+}
+ 
+#contact-form input[type="text"]:-moz-placeholder, #contact-form textarea:-moz-placeholder { /* Firefox 18- */
+color: #21a1cf !important; 
+opacity: 0.7;
+}
+ 
+#contact-form input[type="text"]::-moz-placeholder, #contact-form textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #21a1cf !important; 
+opacity: 0.7; 
+}
+ 
+#contact-form input[type="text"]:-ms-input-placeholder, #contact-form textarea:-ms-input-placeholder {  
+color: #21a1cf !important;  
+opacity: 0.7;
+}
+
+#contact-form input[type="submit"]{
+	border:0;
+	padding: 10px 25px;
+	background: #212121;
+	color:#21a1cf;
+	font-weight: bold;
+}
 
 
 /* Responsive Utilities
@@ -132,7 +231,7 @@ body,html{
 
 @media (max-width: 991px){
 	/*Handling for Extra Small and Small Screen Devices */
-	.menu-item{
+	.home-nav .menu-item{
 		margin-bottom: 15px;
 	}
 }
