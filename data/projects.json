@@ -1,0 +1,330 @@
+{
+  "projects": [
+    {
+      "title": "Question Answering System",
+      "url": "http://www.aneeshbhatnagar.com/n-quire/",
+      "desc": "A Question Answering System built on Tweets collected in November 2016 on the Demonetization in India. It was built as a part of a course at University at Buffalo.",
+      "image": "images/projects/QASystem.png",
+      "imageAlt": "Question Answering System",
+      "category": [
+        "javascript",
+        "academic",
+        "datascience"
+      ]
+    },
+    {
+      "title": "Real Time Twitter Analytics Dashboard",
+      "url": "http://ec2-35-165-109-123.us-west-2.compute.amazonaws.com:8080/",
+      "desc": "A Real Time Twitter Analytics Dashboard, built as a term project for the Data Intensive Computing Course at University at Buffalo. It fetches tweets in real time and shows various demographics on those fetched tweets.",
+      "image": "images/projects/twitterDashboard.png",
+      "imageAlt": "Real Time Twitter Tweets Analytics Dashboard",
+      "category": [
+        "javascript",
+        "nodejs",
+        "academic",
+        "datascience"
+      ]
+    },
+    {
+      "title": "Pomodoro Timer",
+      "url": "https://github.com/AneeshBhatnagar/PomodoroTimer",
+      "desc": "A simple timer based on the Pomodoro Technique which lets you manage your time and up your productivity in a highly efficient way.",
+      "image": "images/projects/pomodoroTimer.png",
+      "imageAlt": "Pomodoro Timer",
+      "category": [
+        "javascript"
+      ]
+    },
+    {
+      "title": "Coupon Manager in Android",
+      "url": "https://play.google.com/store/apps/details?id=com.aneeshbhatngar.couponmanager",
+      "desc": "Coupon Manager is an Android Application, built as an independent project that is live on the Google Play Store. This project was aimed at building something that can help you store your Coupons from various stores and websites in one place and then view them there with their expiry dates so they don't go waste.",
+      "image": "images/projects/couponManager.png",
+      "imageAlt": "Coupon Manager in Android",
+      "category": [
+        "android"
+      ]
+    },
+    {
+      "title": "Blood Donation System Web Application",
+      "url": "https://github.com/AneeshBhatnagar/BloodDonationWeb",
+      "desc": "The Blood Donation System was built as a part of my undergraduate degree. This project served as a web interface to the Android Application and also served as a REST API that the Android Application used to communicate with the server. The design for the interface is a responsive design that adapts to the user's screen automatically and displays all the relevant information.",
+      "image": "images/projects/bloodDonationWeb.png",
+      "imageAlt": "Blood Donation System Web Application",
+      "category": [
+        "php",
+        "academic"
+      ]
+    },
+    {
+      "title": "Simple Dynamo DB in Android",
+      "url": "https://github.com/AneeshBhatnagar/SimpleDynamo",
+      "desc": "A simple Amazon Dynamo Style storage built using the Chain Replication method to support insertions, deletions, querying all concurrently and even under one failure. Built as a part of the CSE 586 Distributed Computers course at University at Buffalo.",
+      "image": "images/projects/dynamoDb.png",
+      "imageAlt": "Simple Dynamo DB in Android",
+      "category": [
+        "android",
+        "academic"
+      ]
+    },
+    {
+      "title": "Distributed Hash Table in Android",
+      "url": "https://github.com/AneeshBhatnagar/Simple-DHT",
+      "desc": "A chord based distributed hash table (DHT) built using Android as the distributed systems. All node joins are handled in realtime and position in the rings are alloted by the first avd, avd0. Built as a part of the CSE 586 Distributed Computers course at University at Buffalo.",
+      "image": "images/projects/dht.png",
+      "imageAlt": "Distributed Hash Table in Android",
+      "category": [
+        "android",
+        "academic"
+      ]
+    },
+    {
+      "title": "Group Messenger with Total and FIFO in Android",
+      "url": "https://github.com/AneeshBhatnagar/GroupMessengerAndroid",
+      "desc": "A group messenger in Android to send and recieve messages between 5 AVDs (Each message sent to each device), while preserving the FIFO and Total Order of the messages across all AVDs. Built as a part of the CSE 586 Distributed Computers course at University at Buffalo.",
+      "image": "images/projects/groupMessenger.png",
+      "imageAlt": "Group Messenger with Total and FIFO in Android",
+      "category": [
+        "android",
+        "academic"
+      ]
+    },
+    {
+      "title": "Group Messenger in Android",
+      "url": "https://github.com/AneeshBhatnagar/GroupMessenger1",
+      "desc": "A group messenger in Android to send and recieve messages between 5 AVDs (Each message sent to each device). Built as a part of the CSE 586 Distributed Computers course at University at Buffalo.",
+      "image": "images/projects/groupMessengerSimple.png",
+      "imageAlt": "Group Messenger in Android",
+      "category": [
+        "android",
+        "academic"
+      ]
+    },
+    {
+      "title": "Simple Messenger in Android",
+      "url": "https://github.com/AneeshBhatnagar/SimpleMessenger",
+      "desc": "A simple messenger in Android to send and recieve messages between two AVDs. Built as a part of the CSE 586 Distributed Computers course at University at Buffalo.",
+      "image": "images/projects/simpleMessenger.png",
+      "imageAlt": "Simple Messenger in Android",
+      "category": [
+        "android",
+        "academic"
+      ]
+    },
+    {
+      "title": "Crazy Alarm Clock",
+      "url": "https://github.com/AneeshBhatnagar/CrazyAlarmClock",
+      "desc": "A prototype app which does not let you stop the alarm until you solve a math problem in the morning.",
+      "image": "images/projects/crazyAlarmClock.png",
+      "imageAlt": "Crazy Alarm Clock",
+      "category": [
+        "android"
+      ]
+    },
+    {
+      "title": "iSpeak",
+      "url": "https://github.com/AneeshBhatnagar/iSpeak",
+      "desc": "An Android App which takes in a voice command input, and performs certain specific actions based on that command.",
+      "image": "images/projects/iSpeak.png",
+      "imageAlt": "iSpeak Android Application",
+      "category": [
+        "android"
+      ]
+    },
+    {
+      "title": "SMS Decrypter in Android",
+      "url": "https://github.com/AneeshBhatnagar/SMSDecrypter",
+      "desc": "An Android App which reads all incoming messages and performs an action if the message is of the type it is looking for.",
+      "image": "images/projects/smsDecrypter.png",
+      "imageAlt": "SMS Decrypter in Android",
+      "category": [
+        "android",
+        "academic"
+      ]
+    },
+    {
+      "title": "Equation Buddy",
+      "url": "https://github.com/AneeshBhatnagar/EquationBuddy",
+      "desc": "An Android Application that can solve any linear or quadratic equation that it is given.",
+      "image": "images/projects/equationBuddy.png",
+      "imageAlt": "Equation Buddy",
+      "category": [
+        "android"
+      ]
+    },
+    {
+      "title": "Fancy Text",
+      "url": "https://github.com/AneeshBhatnagar/FancyText",
+      "desc": "An Android Application that takes in any text in English as input and returns various forms of fancy text, by replacing characters in the text entered.",
+      "image": "images/projects/fancyText.png",
+      "imageAlt": "Fancy Text",
+      "category": [
+        "android"
+      ]
+    },
+    {
+      "title": "Blood Donation System in Android",
+      "url": "https://github.com/AneeshBhatnagar/BloodDonationAndroid",
+      "desc": "Developed as an undergraduate major project, the Android App communicates with a REST API built in PHP to provide the data to a user. It allows you to register for the service, log in and request certain types of blood groups. It was tested on a small group of people with different Android devices and it proved helpful.",
+      "image": "images/projects/bloodDonationAndroid.png",
+      "imageAlt": "Blood Donation System in Android",
+      "category": [
+        "android",
+        "academic"
+      ]
+    },
+    {
+      "title": "To Do Application",
+      "url": "https://github.com/AneeshBhatnagar/ToDoMEAN",
+      "desc": "A simple To-Do app built using NodeJS as the backend, MongoDb as the database, AngularJS as the front-end and the Express framework to connect the Angular application to the Node backend.",
+      "image": "images/projects/toDO.png",
+      "imageAlt": "To-Do Application using MEAN Stack",
+      "category": [
+        "nodejs",
+        "angularjs",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Data Processing With Spark",
+      "url": "https://github.com/AneeshBhatnagar/DataProcessingWithSpark",
+      "desc": "A data processing script using the Spark API, which goes through a set of Latin Files and finds 2-grams and 3-grams for all the files.",
+      "image": "images/projects/dataProcessingSpark.png",
+      "imageAlt": "Data Processing With Spark",
+      "category": [
+        "python",
+        "datascience",
+        "academic"
+      ]
+    },
+    {
+      "title": "Wunderpyist",
+      "url": "https://github.com/AneeshBhatnagar/wunderpyist",
+      "desc": "A Python Library to communicate with the Wunderlist API to perform certain functions, as mentioned below.",
+      "image": "images/projects/wunderpyist.png",
+      "imageAlt": "Wunderpyist",
+      "category": [
+        "python"
+      ]
+    },
+    {
+      "title": "Classification and Regression on Sample Data",
+      "url": "https://github.com/AneeshBhatnagar/Classification-And-Regression",
+      "desc": "Course project for CSE 574 to perform various classification and regression methods on a provided sample data set.",
+      "image": "images/projects/classificationRegression.png",
+      "imageAlt": "Classification and Regression on Sample Data",
+      "category": [
+        "python",
+        "academic",
+        "machinelearning"
+      ]
+    },
+    {
+      "title": "Solr Query and Trec",
+      "url": "https://github.com/AneeshBhatnagar/SolrQueryTrec",
+      "desc": "A Python Script to Query a Solr Instance and save the returned query results into text file(s) in the Trec Evaluation format. This script was made for an Information Retrieval Project at University at Buffalo.",
+      "image": "images/projects/solr.png",
+      "imageAlt": "Solr Query and Trec",
+      "category": [
+        "python",
+        "academic",
+        "datascience"
+      ]
+    },
+    {
+      "title": "Twitter Miner and Parser",
+      "url": "https://github.com/AneeshBhatnagar/TwitterMinerParser",
+      "desc": "The Twitter Miner, Parser and Push to Solr application consists of mainly 4 different scripts and a few additional scripts. It was written for a graduate course at University at Buffalo.",
+      "image": "images/projects/twitterMiner.png",
+      "imageAlt": "Twitter Miner and Parser",
+      "category": [
+        "python",
+        "academic",
+        "datascience"
+      ]
+    },
+    {
+      "title": "Classifying Handwritten Digits Using Multiclass Logistic Regression And SVM",
+      "url": "https://github.com/monisjaved/Classifying-Handwritten-Digits-Using-Multiclass-Logistic-Regression-And-SVM",
+      "desc": "Classifying Handwritten Digits Using Multiclass Logistic Regression And SVM was built as a part of the Machine Learning course at University at Buffalo in Spring 2017.",
+      "image": "images/projects/handwrittenSVM.png",
+      "imageAlt": "Classifying Handwritten Digits Using Multiclass Logistic Regression And SVM",
+      "category": [
+        "python",
+        "academic",
+        "machinelearning"
+      ]
+    },
+    {
+      "title": "Classifying Handwritten Digits Using Neural Networks",
+      "url": "https://github.com/monisjaved/Classifying-Handwritten-Digits-Using-Neural-Networks",
+      "desc": "Classifying Handwritten Digits Using Neural Networks was built as a part of the Machine Learning course at Univeristy at Buffalo in Spring 2017",
+      "image": "images/projects/handwrittenNeuralNetwork.png",
+      "imageAlt": "Classifying Handwritten Digits Using Neural Networks",
+      "category": [
+        "python",
+        "academic",
+        "machinelearning"
+      ]
+    },
+    {
+      "title": "Data Processing with Hadoop",
+      "url": "https://github.com/AneeshBhatnagar/DataProcessingWithHadoop",
+      "desc": "A data processing script using the Hadoop API, which goes through a set of Latin Files and finds 2-grams and 3-grams for all the files.",
+      "image": "images/projects/dataProcessingHadoop.png",
+      "imageAlt": "Data Processing with Hadoop",
+      "category": [
+        "java",
+        "academic",
+        "datascience"
+      ]
+    },
+    {
+      "title": "Boolean Retrieval Model",
+      "url": "https://github.com/AneeshBhatnagar/BooleanRetrievalModel",
+      "desc": "This project was built as a part of the Information Retrieval Course at University at Buffalo. The task involved reading a Lucene Index from a directory, creating an inverted index from that index and then performing various functions on the built inverted index.",
+      "image": "images/projects/booleanModel.png",
+      "imageAlt": "Boolean Retrieval Model",
+      "category": [
+        "java",
+        "academic"
+      ]
+    },
+    {
+      "title": "Algorithms for Data Analysis in R",
+      "url": "https://github.com/AneeshBhatnagar/AlgorithmsForDataAnalysisInR",
+      "desc": "Analysing given data using various algorithms for Data Analysis and finding the various interesting plots using the analysed data.",
+      "image": "images/projects/dataAnalysisAlgo.png",
+      "imageAlt": "Algorithms for Data Processing in R",
+      "category": [
+        "rlang",
+        "academic",
+        "datascience"
+      ]
+    },
+    {
+      "title": "Data Cleaning and Munging in R",
+      "url": "https://github.com/AneeshBhatnagar/DataCleaningAndMungingInR",
+      "desc": "A project focused on data cleaning and munging in R using the various libraries and tools available in R.",
+      "image": "images/projects/dataCleaning.png",
+      "imageAlt": "Data Cleaning and Munging in R",
+      "category": [
+        "rlang",
+        "academic",
+        "datascience"
+      ]
+    },
+    {
+      "title": "Twitter Plots in R",
+      "url": "https://github.com/AneeshBhatnagar/TwitterPlotsInR",
+      "desc": "A project focused on understanding various options in the Twitter Rest API and then plotting various fields from the retreived data.",
+      "image": "images/projects/twitterR.png",
+      "imageAlt": "Twitter Plots in R",
+      "category": [
+        "rlang",
+        "academic",
+        "datascience"
+      ]
+    }
+  ]
+}
