@@ -15,12 +15,28 @@ $(document).ready(function(){
 			embedString = '<div class="'+classString+'"><a href="'+ project.url +'" target="_blank"><p class="hover-item"><span>'+project.title+'</span>'+project.desc+'</p></a><img src="'+project.image+'" class="img-responsive"></div>';
 			$("#all-projects").append(embedString);
 		});
-		
 		setTimeout(function(){
 			var projectWidth = $(".project-listing img").css('width');
 			var projectHeight = $(".project-listing img").css('height');
 			$(".hover-item").css('width',projectWidth);
 			$(".hover-item").css('height',projectHeight);
+			
 		},2000);
-	})	
+		
+	});
+	$(".project-categories a").click(function(){
+		$(".project-categories .active").removeClass('active');
+		$(this).addClass('active');
+		var selector = $(this).attr('data-filter');
+		console.log(selector)
+		$("#all-projects").isotope({
+            filter: selector,
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false,	                
+            }
+        });
+		return false;
+	});
 });

@@ -251,10 +251,12 @@ opacity: 0.7;
 	background: #212121;
 	color:#21a1cf;
 	padding:10px 15px;
+	display: inline-block;
 	font-weight: 600;
 	width: auto;
 	height: auto;
 	margin-right: 5px;
+	margin-bottom: 15px;
 	opacity: 0.5;
 	transition: all ease-in-out 0.3s
 }
