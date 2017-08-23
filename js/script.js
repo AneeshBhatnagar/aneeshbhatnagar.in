@@ -4,7 +4,6 @@ $(document).ready(function(){
 	}, function(){
 		$(this).children("div.menu-image").children("img.circle-image").css("transform","rotate(0deg)");
 	});
-	assignNavHeight();
 	$(".skills-images img").tooltipster({
 		position:"top",
 		delay:120,
@@ -103,6 +102,12 @@ $(window).scroll(function(){
 		$("#side-navigation").removeClass("sticky-side-navigation");
 		$("#main-content").css("left","0px");
 	}
+});
+
+$(window).on('load',function(){
+	console.log("Hello");
+	$("#loader").fadeOut('slow');
+	assignNavHeight();
 });
 
 function validateEmail(email) {
