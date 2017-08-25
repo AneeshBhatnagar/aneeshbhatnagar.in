@@ -4,6 +4,7 @@ $(document).ready(function(){
 	}, function(){
 		$(this).children("div.menu-image").children("img.circle-image").css("transform","rotate(0deg)");
 	});
+	assignNavHeight();	
 	$(".skills-images img").tooltipster({
 		position:"top",
 		delay:120,
@@ -82,8 +83,6 @@ function assignNavHeight(){
 	//Height for homepage navigation
 	var width = $(".menu-item-inner .circle-image").width();
 	$(".menu-item-inner").css("height",width);
-	nav_position = $("#side-navigation").position().top;
-	content_position = $("#main-content").position().left;
 }
 
 
@@ -94,7 +93,8 @@ $(window).resize(function(){
 
 $(window).scroll(function(){
 	var windowPos=$(window).scrollTop();
-
+	nav_position = $("#side-navigation").position().top;
+	content_position = $("#main-content").position().left;
 	if(windowPos >= nav_position){
 		$("#side-navigation").addClass("sticky-side-navigation");
 		$("#main-content").css("left",content_position);
@@ -105,9 +105,7 @@ $(window).scroll(function(){
 });
 
 $(window).on('load',function(){
-	console.log("Hello");
 	$("#loader").fadeOut('slow');
-	assignNavHeight();
 });
 
 function validateEmail(email) {
