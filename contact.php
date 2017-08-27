@@ -1,11 +1,11 @@
 <?php 
 
 if(isset($_REQUEST['g-recaptcha-response']) && !empty($_REQUEST['g-recaptcha-response'])):
-	$to = "aneesh.bhatnagar93@gmail.com"
+	$to = "aneesh.bhatnagar93@gmail.com";
 	$from = "no-reply@aneeshbhatnagar.com";
 	$email = $_REQUEST['emailId'];
 	$from_name = $_REQUEST['senderName'];
-	$subject = "Contact Form Submitted";
+	$subject = "Contact Form Submitted from Personal Website";
 	$msg = stripcslashes(nl2br($_REQUEST['msg']));
 	/*$message = "From: {$from_name}<{$email}>\r\n\nMessage: {$msg}";*/
 	$message = "
@@ -18,7 +18,7 @@ if(isset($_REQUEST['g-recaptcha-response']) && !empty($_REQUEST['g-recaptcha-res
     $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_REQUEST['g-recaptcha-response']);
     $responseData = json_decode($verifyResponse);
     if($responseData->success):
-		$headers = "From: {$from_name} <{$email}>" . "\r\n\\";
+		$headers = "From: {$from_name} <{$from}>" . "\r\n\\";
 		$headers .= "Reply-To: {$email}\r\n";
 		/*$headers .= "Return-Path: {$from}\r\n";*/
 		$headers .= "MIME-Version: 1.0\r\n";

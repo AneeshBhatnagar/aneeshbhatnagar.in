@@ -3,11 +3,11 @@
 include 'php/lib/PHPMailer/PHPMailerAutoload.php';
 
 if(isset($_REQUEST['g-recaptcha-response']) && !empty($_REQUEST['g-recaptcha-response'])):
-	$to = "aneeshbh@buffalo.edu"
+	$to = "aneeshbh@buffalo.edu";
 	$from = "no-reply@buffalo.edu";
 	$email = $_REQUEST['emailId'];
 	$from_name = $_REQUEST['senderName'];
-	$subject = "Contact Form Submitted";
+	$subject = "Contact Form Submitted from Personal Website";
 	$msg = stripcslashes(nl2br($_REQUEST['msg']));
 	/*$message = "From: {$from_name}<{$email}>\r\n\nMessage: {$msg}";*/
 	$message = "
