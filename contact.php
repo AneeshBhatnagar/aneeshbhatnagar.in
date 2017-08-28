@@ -1,4 +1,7 @@
-<?php 
+<?php
+
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: *"); 
 
 if(isset($_REQUEST['g-recaptcha-response']) && !empty($_REQUEST['g-recaptcha-response'])):
 	$to = "aneesh.bhatnagar93@gmail.com";
@@ -7,7 +10,6 @@ if(isset($_REQUEST['g-recaptcha-response']) && !empty($_REQUEST['g-recaptcha-res
 	$from_name = $_REQUEST['senderName'];
 	$subject = "Contact Form Submitted from Personal Website";
 	$msg = stripcslashes(nl2br($_REQUEST['msg']));
-	/*$message = "From: {$from_name}<{$email}>\r\n\nMessage: {$msg}";*/
 	$message = "
 		<h1>Contact request details</h1>
 		<p><b>Name: </b>".$from_name."</p>
@@ -20,7 +22,6 @@ if(isset($_REQUEST['g-recaptcha-response']) && !empty($_REQUEST['g-recaptcha-res
     if($responseData->success):
 		$headers = "From: {$from_name} <{$from}>" . "\r\n\\";
 		$headers .= "Reply-To: {$email}\r\n";
-		/*$headers .= "Return-Path: {$from}\r\n";*/
 		$headers .= "MIME-Version: 1.0\r\n";
 		$headers .= "Content-Type: text/html; charset=utf-8\r\n";
 		echo mail($to, $subject, $message, $headers);

@@ -24,7 +24,8 @@ $(document).ready(function(){
 	var name = $('#contact-form #name');
 	var email = $('#contact-form #email');
 	var message = $('#contact-form #message');
-	var url = $(this).attr('action');
+	/*var url = $(this).attr('action');*/
+	var url = "http://www.aneeshbhatnagar.com/temp/contact.php"
 	var data = $(this).serialize();
 
 	console.log(data);
@@ -55,6 +56,7 @@ $(document).ready(function(){
 			type: "POST",
 			url: url,
 			data: data,
+			crossDomain: true,
 			success: function(response) {
 				console.log("Response from AJAX" + response);
 				if (response == 1) {
@@ -68,6 +70,11 @@ $(document).ready(function(){
 				}
 
 			},
+			error: function (jqXHR, status, err) {
+				console.log(err);
+				console.log(jqXHR);
+				console.log(status);
+			} 
 		});
 	}
 
