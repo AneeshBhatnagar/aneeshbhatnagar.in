@@ -103,12 +103,13 @@ body,html{
 	cursor: pointer;
 }
 
-.social-banner i{
+.social-banner a{
+	color:inherit;
+	text-decoration: none;
 	margin-right: 15px;
-	cursor: pointer;
 }
 
-.social-banner i:last-child{
+.social-banner a:last-child{
 	margin-right: 0px;
 }
 
