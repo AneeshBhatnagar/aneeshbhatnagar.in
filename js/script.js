@@ -24,8 +24,7 @@ $(document).ready(function(){
 	var name = $('#contact-form #name');
 	var email = $('#contact-form #email');
 	var message = $('#contact-form #message');
-	/*var url = $(this).attr('action');*/
-	var url = "http://www.aneeshbhatnagar.com/contact.php"
+	var url = $(this).attr('action');
 	var data = $(this).serialize();
 
 	console.log(data);
