@@ -1,9 +1,7 @@
 # Portfolio Website #
-Portfolio website for Aneesh Bhatnagar, www.aneeshbhatnagar.com
+Portfolio website for Aneesh Bhatnagar, www.aneeshbhatnagar.in
 
 Built Using:
 - Bootstrap Framework
 - JavaScript
 - jQuery
-- AngularJS
-- SublimeText 3 
