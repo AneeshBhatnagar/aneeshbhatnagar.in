@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "Question Answering System",
-      "url": "http://www.aneeshbhatnagar.com/n-quire/",
+      "url": "https://github.com/AneeshBhatnagar/QASystemFrontEnd",
       "desc": "A Question Answering System built on Tweets collected in November 2016 on the Demonetization in India. It was built as a part of a course at University at Buffalo.",
       "image": "images/projects/QASystem.png",
       "imageAlt": "Question Answering System",
@@ -14,7 +14,7 @@
     },
     {
       "title": "Real Time Twitter Analytics Dashboard",
-      "url": "http://ec2-35-165-109-123.us-west-2.compute.amazonaws.com:8080/",
+      "url": "https://github.com/AneeshBhatnagar/TwitterAnalyticsDashboard",
       "desc": "A Real Time Twitter Analytics Dashboard, built as a term project for the Data Intensive Computing Course at University at Buffalo. It fetches tweets in real time and shows various demographics on those fetched tweets.",
       "image": "images/projects/twitterDashboard.png",
       "imageAlt": "Real Time Twitter Tweets Analytics Dashboard",
